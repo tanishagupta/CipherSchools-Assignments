@@ -1,9 +1,9 @@
-def finding(arr,n,x):
-    if n==0:
+def finding(arr,length,num):
+    if length==0:
         return -1
-    for i in range(n):
-        for j in range(n):
-            if arr[i][j]==x:
+    for i in range(length):
+        for j in range(length):
+            if arr[i][j]==num:
                 print(i,j)
 
 
